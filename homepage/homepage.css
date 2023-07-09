@@ -1,0 +1,62 @@
+h1 {
+    color: #000;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    width: 350px;
+    height: 103px;
+    flex-direction: column;
+    flex-shrink: 0;
+    white-space: nowrap;
+    margin-left: 50px;
+}
+
+span {
+    color: #000;
+    font-family: 'Karla', sans-serif;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    width: 520px;
+    height: 103px;
+    flex-direction: column;
+    flex-shrink: 0;
+    white-space: nowrap;
+}
+.logo {
+    width: 126px;
+    height: 126px;
+    flex-shrink: 0;
+    width: 126px;
+    border: 15px;
+    margin: 20px;
+}
+h1, span, .logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+.welcome {
+    background-color: #E4D6A7;
+    border: 15px ;
+    padding: 50px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 62px;
+    width: 1350px;
+    height: 250px;
+    flex-shrink: 0;
+}
+h2 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 60px;
+}
+p {
+    font-family: 'Karla', sans-serif;
+    font-size: 25px;
+}
+

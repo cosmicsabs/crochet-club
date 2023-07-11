@@ -1,0 +1,15 @@
+h1 {
+    color: #000;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    width: 400px;
+    height: 103px;
+    flex-direction: column;
+    flex-shrink: 0;
+    white-space: nowrap;
+    margin-left: 50px;
+}

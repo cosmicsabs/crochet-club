@@ -62,4 +62,32 @@ p {
     text-align: center;
     margin-top: 50px;
 }
-
+/* Add a black background color to the top navigation */
+.topnav {
+    text-align: right; 
+    font-family: 'Karla', sans-serif;
+    background-color: #ffffff;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    text-align: right; 
+    font-family: 'Karla', sans-serif;
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    text-align: right; 
+    font-family: 'Karla', sans-serif;
+    background-color: #E9B44C;
+    color: black;
+  }
+  
+ 

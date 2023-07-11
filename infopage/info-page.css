@@ -13,3 +13,33 @@ h1 {
     white-space: nowrap;
     margin-left: 50px;
 }
+span {
+    color: #000;
+    font-family: 'Karla', sans-serif;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    width: 520px;
+    height: 103px;
+    flex-direction: column;
+    flex-shrink: 0;
+    white-space: nowrap;
+}
+.logo {
+    width: 126px;
+    height: 126px;
+    flex-shrink: 0;
+    width: 126px;
+    border: 15px;
+    margin: 20px;
+}
+h1, span, .logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+.boxed {
+    background-color: #912D0B ;
+    padding: 10px ;
+}

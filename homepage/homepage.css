@@ -6,7 +6,7 @@ h1 {
     font-weight: 400;
     line-height: normal;
     display: flex;
-    width: 350px;
+    width: 400px;
     height: 103px;
     flex-direction: column;
     flex-shrink: 0;
@@ -48,15 +48,18 @@ h1, span, .logo {
     text-align: center;
     border-radius: 62px;
     width: 1350px;
-    height: 250px;
+    height: 300px;
     flex-shrink: 0;
 }
 h2 {
     font-family: 'Kaushan Script', cursive;
     font-size: 60px;
+    height: 50px;
 }
 p {
     font-family: 'Karla', sans-serif;
     font-size: 25px;
+    text-align: center;
+    margin-top: 50px;
 }
 

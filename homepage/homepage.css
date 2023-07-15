@@ -96,5 +96,15 @@ p {
     background-color: #E9B44C;
     color: black;
   }
-  
- 
+  footer {
+    position: relative;
+    background-color: #9B2915;
+    padding: 20px;
+    margin: auto;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    
+  }
+

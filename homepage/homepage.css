@@ -3,8 +3,27 @@
 }
 
 /*Navigation styling*/
-.top-nav {
-    list-style-type: none;
+.nav-container {
+    justify-content: center;
+}
+
+.navbar-brand {
+    margin-right: 4rem;
+}
+
+.nav-item {
+    margin-right: 2rem;
+}
+
+.nav-link {
+    font-family: 'Karla', sans-serif;
+    font-size: 20pt;
+    color: black;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    width: 2rem;
+    height: 2rem;
 }
 
 h1 {
@@ -37,18 +56,7 @@ span {
     flex-shrink: 0;
     white-space: nowrap;
 }
-.logo {
-    width: 126px;
-    height: 126px;
-    flex-shrink: 0;
-    width: 126px;
-    border: 15px;
-    margin: 20px;
-}
-h1, span, .logo {
-    display: inline-block;
-    vertical-align: middle;
-}
+
 .welcome {
     background-color: #E4D6A7;
     border: 15px ;
@@ -77,8 +85,8 @@ p {
     overflow: hidden;
   }
   
-  /* Style the links inside the navigation bar */
-  .topnav a {
+/* Style the links inside the navigation bar */
+.topnav a {
     text-align: right; 
     font-family: 'Karla', sans-serif;
     float: left;
@@ -87,16 +95,17 @@ p {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-  }
+}
   
-  /* Change the color of links on hover */
-  .topnav a:hover {
+/* Change the color of links on hover */
+.topnav a:hover {
     text-align: right; 
     font-family: 'Karla', sans-serif;
     background-color: #E9B44C;
     color: black;
-  }
-  footer {
+}
+
+.footer-logos {
     position: relative;
     background-color: #9B2915;
     padding: 20px;
@@ -105,6 +114,5 @@ p {
     text-align: center;
     white-space: nowrap;
     vertical-align: middle;
-    
-  }
+}
 

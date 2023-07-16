@@ -12,31 +12,40 @@
     <link href="https://fonts.googleapis.com/css2?family=Karla&family=Kaushan+Script&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <a class="navbar-brand" href="#">
-                    <h1>crochet <span>club</span></h1>
-                    <img class="logo" src="https://i.ibb.co/3MgY8WQ/IMG-1041.png" alt="IMG-1041" width="30" height="24" class="d-inline-block align-text-top">
-                </a>
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="C:\Users\sabca\Documents\GitHub\crochet-club\basics-for-beginners\basics-for-beginners.html">Basics for Beginners</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="C:\Users\sabca\Documents\GitHub\crochet-club\tutorials\tutorials.html">Tutorials</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="C:\Users\sabca\Documents\GitHub\crochet-club\join-the-club\join-the-club.html">Join the Club</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>  
+    <!--Navigation bar-->
+    <nav class="navbar navbar-expand-lg navbar-light nav" style="background-color: white;"">
+        <a class="navbar-brand" href="home-page.html" class="nav-item active">
+            <img class="logo" width=350px src="E:\Documents\GitHub\crochet-club\assets\crochet-club-logo.png" alt="Crochet Club Logo">
+            <span class="sr-only">(current)</span>
+        </a>
 
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Basics for beginners
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Types of yarn</a>
+                <a class="dropdown-item" href="#">Types of hooks</a>
+                <a class="dropdown-item" href="#">Crochet accessories</a>
+                <a class="dropdown-item" href="#">Tips and tricks</a>
+                </div>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">Tutorials</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">Join the club</a>
+            </li>
+        </ul>
+        </div>    
+    </nav>
+        
 <!--Welcome sign-->
     <div class="container welcome col-md-12">
         <h2>WELCOME TO THE CLUB</h2>
@@ -52,21 +61,21 @@
         <!-- images and caption text -->
         <div class="mySlides carousel_animation">
             <div class="image">
-                <img src="C:\Users\sabca\Documents\GitHub\crochet-club\assets\cardigan.jpg" alt="Cardigan" width="500px">
+                <img src="E:\Documents\GitHub\crochet-club\assets\cardigan.jpg" alt="Cardigan" width="500px">
             </div>
             <div class="text">Cardigan</div>
         </div>
 
         <div class="mySlides carousel_animation">
             <div class="image">
-                <img src="C:\Users\sabca\Documents\GitHub\crochet-club\assets\tote.jpg" alt="Tote bag" width="500px">
+                <img src="E:\Documents\GitHub\crochet-club\assets\tote.jpg" alt="Tote bag" width="500px">
             </div>
             <div class="text">Tote bag</div>
         </div>
   
         <div class="mySlides carousel_animation">
             <div class="image">
-                <img src="C:\Users\sabca\Documents\GitHub\crochet-club\assets\beanie.jpg" alt="Cat ear beanie" width="500px">
+                <img src="E:\Documents\GitHub\crochet-club\assets\beanie.jpg" alt="Cat ear beanie" width="500px">
             </div> 
             <div class="text">Cat ear beanie</div>
         </div>
@@ -94,7 +103,6 @@
         </div>
         
     </footer>
-
     <!-- All the JavaScript things-->
     <script src="carousel.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

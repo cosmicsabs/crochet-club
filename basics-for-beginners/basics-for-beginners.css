@@ -1,3 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+/*Navigation styling*/
+.navbar-brand {
+    margin-right: 4rem;
+}
+
+.nav-item {
+    margin-right: 2rem;
+}
+
+.nav-link {
+    font-family: 'Karla', sans-serif;
+    font-size: 20pt;
+    color: black;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    width: 2rem;
+    height: 2rem;
+}
+
 h1 {
     color: #000;
     font-family: 'Kaushan Script', cursive;
@@ -13,6 +37,7 @@ h1 {
     white-space: nowrap;
     margin-left: 50px;
 }
+
 span {
     color: #000;
     font-family: 'Karla', sans-serif;
@@ -27,19 +52,4 @@ span {
     flex-shrink: 0;
     white-space: nowrap;
 }
-.logo {
-    width: 126px;
-    height: 126px;
-    flex-shrink: 0;
-    width: 126px;
-    border: 15px;
-    margin: 20px;
-}
-h1, span, .logo {
-    display: inline-block;
-    vertical-align: middle;
-}
-.boxed {
-    background-color: #912D0B ;
-    padding: 10px ;
-}
+

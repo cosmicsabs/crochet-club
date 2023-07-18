@@ -42,4 +42,29 @@ h1, span, .logo {
 .boxed {
     background-color: #912D0B ;
     padding: 10px ;
-}
+} 
+ .container { 
+     display: flex;
+    padding: 30px;
+    height: 500px;
+    flex-grow: 3;
+    width: 2000px;
+    white-space:nowrap;
+  }
+
+     
+.red {
+    background: orangered;
+    flex-grow: 1;
+
+  }
+ .green {
+   background: yellowgreen;
+   flex-grow: 2;
+      }
+
+.container > div {
+        font-size: 5vw;
+        padding: 1px;
+        color: white;
+      }

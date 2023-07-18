@@ -43,28 +43,50 @@ h1, span, .logo {
     background-color: #912D0B ;
     padding: 10px ;
 } 
- .container { 
+ .info-container { 
      display: flex;
-    padding: 30px;
-    height: 500px;
+    padding: 50px;
+    height: 700px;
     flex-grow: 3;
-    width: 2000px;
+    width: auto;
     white-space:nowrap;
   }
 
      
 .red {
     background: orangered;
-    flex-grow: 1;
+    flex-grow: 2;
 
   }
  .green {
-   background: yellowgreen;
-   flex-grow: 2;
-      }
+   background: #50a2a7;
+   flex-grow: 3;
+   border-radius: 1em;
+ }
 
-.container > div {
+
+.info-button {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+  
+.info-button:hover {
+    background-color: #50a2a7;
+    color: white;
+  }    
+      
+
+.info-container > div {
         font-size: 5vw;
         padding: 1px;
         color: white;
+        margin: 10px;
       }
+p {
+        font-family: 'Karla', sans-serif;
+        font-size: 25px;
+        text-align: left;
+        margin: 50px;
+    }
+

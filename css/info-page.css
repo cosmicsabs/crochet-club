@@ -1,3 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+/*Navigation styling*/
+.navbar-brand {
+  margin-right: 4rem;
+}
+
+.nav-item {
+  margin-right: 2rem;
+}
+
+.nav-link {
+  font-family: 'Karla', sans-serif;
+  font-size: 20pt;
+  color: black;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+  width: 2rem;
+  height: 2rem;
+}
+
 h1 {
     color: #000;
     font-family: 'Kaushan Script', cursive;
@@ -27,23 +51,18 @@ span {
     flex-shrink: 0;
     white-space: nowrap;
 }
-.logo {
-    width: 126px;
-    height: 126px;
-    flex-shrink: 0;
-    width: 126px;
-    border: 15px;
-    margin: 20px;
-}
+
 h1, span, .logo {
     display: inline-block;
     vertical-align: middle;
 }
+
 .boxed {
     background-color: #912D0B ;
     padding: 10px ;
 } 
- .info-container { 
+
+.info-container { 
      display: flex;
     padding: 50px;
     height: 700px;
@@ -51,13 +70,12 @@ h1, span, .logo {
     width: auto;
     white-space:nowrap;
   }
-
-     
+   
 .red {
     background: orangered;
     flex-grow: 2;
-
   }
+
  .green {
    background: #50a2a7;
    flex-grow: 3;
@@ -78,6 +96,7 @@ h1, span, .logo {
     transition-duration: 0.4s;
     cursor: pointer;
 }
+
 .info-button {
     background-color: white; 
     color: black; 
@@ -89,17 +108,17 @@ h1, span, .logo {
     color: white;
   }    
       
-
 .info-container > div {
         font-size: 5vw;
         padding: 1px;
         color: white;
         margin: 10px;
-      }
+}
+
 p {
         font-family: 'Karla', sans-serif;
         font-size: 25px;
         text-align: left;
         margin: 50px;
-    }
+}
 

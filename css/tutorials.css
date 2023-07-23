@@ -43,3 +43,15 @@ h1, span, .logo {
     background-color: #912D0B ;
     padding: 10px ;
 }
+.profile-picture { 
+    top:-50px; 
+    left:-35px; 
+    display:block; 
+    z-index:999; 
+    cursor: pointer; 
+    transition: 0.2s all ease-in-out;
+}
+    .profile-picture:hover { 
+    transform: scale(1.1); 
+    
+}

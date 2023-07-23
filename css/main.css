@@ -3,6 +3,10 @@
 }
 
 /*Navigation styling*/
+.navbar {
+    border-bottom: 1px solid lightgray;
+}
+
 .navbar-brand {
     margin-right: 4rem;
 }
@@ -38,6 +42,19 @@ h1 {
     margin-left: 50px;
 }
 
+h2 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 60px;
+    height: 50px;
+}
+
+p {
+    font-family: 'Karla', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 50px;
+}
+
 span {
     color: #000;
     font-family: 'Karla', sans-serif;
@@ -53,6 +70,11 @@ span {
     white-space: nowrap;
 }
 
+h1, span, .logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
 .welcome {
     background-color: #E4D6A7;
     border: 15px ;
@@ -62,17 +84,7 @@ span {
     border-radius: 62px;
     max-width: 100%;
 }
-h2 {
-    font-family: 'Kaushan Script', cursive;
-    font-size: 60px;
-    height: 50px;
-}
-p {
-    font-family: 'Karla', sans-serif;
-    font-size: 25px;
-    text-align: center;
-    margin-top: 50px;
-}
+
 /* Add a black background color to the top navigation */
 .topnav {
     text-align: right; 
@@ -112,114 +124,97 @@ p {
     vertical-align: middle;
 }
 
-* {
-    box-sizing: border-box;
-  }
+/* Project Pages */
+.boxed {
+    background-color: #912D0B ;
+    padding: 10px ;
+} 
   
-  /*Navigation styling*/
-  .navbar-brand {
-    margin-right: 4rem;
-  }
-  
-  .nav-item {
-    margin-right: 2rem;
-  }
-  
-  .nav-link {
-    font-family: 'Karla', sans-serif;
-    font-size: 20pt;
-    color: black;
-  }
-  
-  .navbar-toggler .navbar-toggler-icon {
-    width: 2rem;
-    height: 2rem;
-  }
-  
-  h1 {
-      color: #000;
-      font-family: 'Kaushan Script', cursive;
-      font-size: 75px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: normal;
-      display: flex;
-      width: 400px;
-      height: 103px;
-      flex-direction: column;
-      flex-shrink: 0;
-      white-space: nowrap;
-      margin-left: 50px;
-  }
-  span {
-      color: #000;
-      font-family: 'Karla', sans-serif;
-      font-size: 75px;
-      font-style: normal;
-      font-weight: 600;
-      line-height: normal;
-      display: flex;
-      width: 520px;
-      height: 103px;
-      flex-direction: column;
-      flex-shrink: 0;
-      white-space: nowrap;
-  }
-  
-  h1, span, .logo {
-      display: inline-block;
-      vertical-align: middle;
-  }
-  
-  .boxed {
-      background-color: #912D0B ;
-      padding: 10px ;
-  } 
-  
-  .info-container { 
-       display: flex;
-      padding: 50px;
-      height: 700px;
-      flex-grow: 3;
-      width: auto;
-      white-space:nowrap;
-    }
+.info-container { 
+    display: flex;
+    padding: 50px;
+    height: 700px;
+    flex-grow: 3;
+    width: auto;
+    white-space:nowrap;
+}
      
-  .red {
-      background: #E9B44C;
-      flex-grow: 2;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin: 1;
-      border-radius: 5em;
-      background-image: url(assets\cardigan.jpg);
-      background-size: auto;
-    }
-    .cardigan-info {
-        border-radius: 2em; 
-        display: flex;
-        justify-content: center;
-    }
-   .green {
-     background: #50a2a7;
-     flex-grow: 3;
-     border-radius: 1em;
-   }
-  
-        
-  .info-container > div {
-          font-size: 5vw;
-          padding: 1px;
-          color: white;
-          margin: 10px;
-  }
-  
-  p {
-          font-family: 'Karla', sans-serif;
-          font-size: 25px;
-          text-align: center;
-          margin: 50px;
-  }
-  
-  
+.red {
+    background: #E9B44C;
+    flex-grow: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1;
+    border-radius: 5em;
+    background-image: url(assets\cardigan.jpg);
+    background-size: auto;
+}
+    
+.cardigan-info {
+    border-radius: 2em; 
+    display: flex;
+    justify-content: center;
+}
+
+.green {
+    background: #50a2a7;
+    flex-grow: 3;
+    border-radius: 1em;
+}
+          
+.info-container > div {
+    font-size: 5vw;
+    padding: 1px;
+    color: white;
+    margin: 10px;
+}
+
+/* Join the Club - Heading */
+.join-container {
+    padding: 30px 0px 0px 0px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    flex-shrink: 5;
+    border-radius: 43px;
+    max-width: 581px;
+    background-color: #E9B44C;
+}
+
+/* Join the Club - Sign up Form */
+.sign-up-container {
+    padding: 50px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    flex-shrink: 3;
+    border-radius: 43px;
+    max-width: 990px;
+    background-color: #E4D6A7;
+}
+
+.radio-label {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+}
+
+.submit-sign-up {
+    margin-top: 20px;
+}
+
+.sign-up-button {
+    background-color: #50A2A7;
+    border-color: #50A2A7;
+}
+
+.sign-up-button:hover {
+    background-color: #a74942;
+    border-color: #a74942;
+}

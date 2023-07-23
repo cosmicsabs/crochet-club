@@ -28,12 +28,8 @@ span {
     white-space: nowrap;
 }
 .logo {
-    width: 126px;
-    height: 126px;
+    width: 350px;
     flex-shrink: 0;
-    width: 126px;
-    border: 15px;
-    margin: 20px;
 }
 h1, span, .logo {
     display: inline-block;

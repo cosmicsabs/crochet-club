@@ -33,13 +33,6 @@ h1 {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    display: flex;
-    width: 400px;
-    height: 103px;
-    flex-direction: column;
-    flex-shrink: 0;
-    white-space: nowrap;
-    margin-left: 50px;
 }
 
 h2 {
@@ -48,11 +41,15 @@ h2 {
     height: 50px;
 }
 
+h3 {
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
 p {
     font-family: 'Karla', sans-serif;
-    font-size: 25px;
-    text-align: center;
-    margin-top: 50px;
+    font-size: 22px;
 }
 
 span {
@@ -63,6 +60,7 @@ span {
     font-weight: 600;
     line-height: normal;
     display: flex;
+    vertical-align: middle;
     width: 520px;
     height: 103px;
     flex-direction: column;
@@ -70,21 +68,33 @@ span {
     white-space: nowrap;
 }
 
-h1, span, .logo {
-    display: inline-block;
-    vertical-align: middle;
-}
-
+/* Home page welcome banner */
 .welcome {
-    background-color: #E4D6A7;
-    border: 15px ;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     padding: 50px;
     margin: auto;
-    text-align: center;
+    margin-top: 20px;
     border-radius: 62px;
-    max-width: 100%;
+    max-width: 90%;
+    background-color: #E4D6A7;
 }
 
+.home-container-contents {
+    padding: 20px 40px;
+    align-self: center;
+    text-align: center;
+}
+
+/* Home page - 'find your next craft' styling */
+.home-sub-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+}
+  
 /* Add a black background color to the top navigation */
 .topnav {
     text-align: right; 
@@ -104,24 +114,13 @@ h1, span, .logo {
     text-decoration: none;
     font-size: 17px;
 }
-  
+
 /* Change the color of links on hover */
 .topnav a:hover {
     text-align: right; 
     font-family: 'Karla', sans-serif;
     background-color: #E9B44C;
     color: black;
-}
-
-.footer-logos {
-    position: relative;
-    background-color: #9B2915;
-    padding: 20px;
-    margin: auto;
-    display: inline-block;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
 }
 
 /* Project Pages */
@@ -157,17 +156,71 @@ h1, span, .logo {
     justify-content: center;
 }
 
+
 .green {
     background: #50a2a7;
     flex-grow: 3;
     border-radius: 1em;
+    text-align: center;
+    margin-top: 50px;
 }
-          
+
+.green h1 {
+    margin-top: 30px;
+}
+
+.green p {
+    margin-top: 30px;
+}
+
 .info-container > div {
     font-size: 5vw;
     padding: 1px;
     color: white;
     margin: 10px;
+}
+
+/* Meet the club - Members profiles container */
+.members-container {
+    padding: 0px 0px 60px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+/* Meet the club - Round profile picture */
+.profile-picture {
+    width: 350px;
+    border-radius: 50%;
+    margin: 5px 40px;
+    align-self: center;
+    align-content: center;
+}
+
+.members-container h3 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.member-info {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    list-style: none;
+    margin: 0px 35px 20px 30px;
+    text-align: left;
+}
+
+.member-info li {
+    margin-top: 5px;
+}
+
+/* Tutorials page */
+.members-container p {
+    text-align: center;
+    margin-top: 5px;
 }
 
 /* Join the Club - Heading */
@@ -218,3 +271,58 @@ h1, span, .logo {
     background-color: #a74942;
     border-color: #a74942;
 }
+
+/* Footer */
+  .footer-basic {
+    padding:40px 0;
+    background-color:#9B2915;
+    color: black;
+    margin-top: 30px;
+    width: 100%;
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  .footer-basic .social {
+    text-align:center;
+    padding:25px;
+  }
+  
+  .footer-basic .social > a {
+    font-size:26px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+    background-color: #E4D6A7;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }

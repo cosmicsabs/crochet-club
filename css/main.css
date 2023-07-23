@@ -156,6 +156,9 @@ span {
     justify-content: center;
 }
 
+.cardigan-info img{
+    border-radius: 50%;
+}
 
 .green {
     background: #50a2a7;

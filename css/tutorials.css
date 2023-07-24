@@ -28,12 +28,8 @@ span {
     white-space: nowrap;
 }
 .logo {
-    width: 126px;
-    height: 126px;
+    width: 350px;
     flex-shrink: 0;
-    width: 126px;
-    border: 15px;
-    margin: 20px;
 }
 h1, span, .logo {
     display: inline-block;
@@ -42,4 +38,16 @@ h1, span, .logo {
 .boxed {
     background-color: #912D0B ;
     padding: 10px ;
+}
+.profile-picture { 
+    top:-50px; 
+    left:-35px; 
+    display:block; 
+    z-index:999; 
+    cursor: pointer; 
+    transition: 0.2s all ease-in-out;
+}
+    .profile-picture:hover { 
+    transform: scale(1.1); 
+    
 }

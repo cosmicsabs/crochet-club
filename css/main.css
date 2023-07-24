@@ -152,6 +152,9 @@ span {
 }
     
 
+.cardigan-info img{
+    border-radius: 50%;
+}
 
 .green {
     background: #50a2a7;
@@ -174,6 +177,87 @@ span {
     padding: 1px;
     color: white;
     margin: 10px;
+}
+
+/* Types of yarn - 2 columns - 4 divs */
+.types-of-yarn {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 1px;
+}
+
+/* Types of yarn - column 1 */
+.image-and-text {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 10px;
+    max-width: 800px;
+}
+
+/* Types of yarn - column 1 - item 1 - Image */
+.yarn-photo {
+    width: 400px;
+    margin: 20px 10px 0px 10px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+ /* Types of yarn - column 1 - item 2 - Text in border box */
+.text-under-image {
+    max-width: 400px;
+    margin: 20px 10px 0px 10px;
+    padding: 30px;
+    border: 5px solid #E9B44C;
+    border-radius: 43px;
+}
+
+/* Types of yarn - column 1 - item 2 - Text in border box - link */
+.click-link {
+    color: #a74942;
+}
+
+.click-link:hover {
+    color: #E9B44C;
+}
+
+/* Types of yarn - column 2 */
+.yarn-boxes {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 10px;
+    max-width: 800px;
+}
+
+/* Types of yarn - column 2 - item 1 - Heading */
+.yarn-heading {
+    align-self: center;
+    padding: 30px 30px 60px 30px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    flex-shrink: 5;
+    border-radius: 43px;
+    background-color: #E9B44C;
+}
+
+/* Types of yarn - column 2 - item 2 - Information */
+.yarn-information {
+    align-self: center;
+    padding: 30px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    flex-shrink: 3;
+    border-radius: 43px;
+    background-color: #E4D6A7;
 }
 
 /* Meet the club - Members profiles container */

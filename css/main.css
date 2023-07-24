@@ -139,8 +139,9 @@ span {
 }
      
 .red {
-    background: #E9B44C;
     flex-grow: 2;
+    border: #E9B44C;
+    border-style: solid;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -150,11 +151,6 @@ span {
     background-size: auto;
 }
     
-.cardigan-info {
-    border-radius: 2em; 
-    display: flex;
-    justify-content: center;
-}
 
 
 .green {
